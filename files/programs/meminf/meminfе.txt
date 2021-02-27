@@ -1,0 +1,11 @@
+This program is called: " MEMORY INFO "
+It is created for indication of amount of the busy and free memory in bytes and percents. The program is created for the pocket computer such as SHARP PC-1401, also it is possible to adjust under similar models. It is recommended to place this program right at the beginning under numbers of lines since first that it was possible to start the program not only with the help DEF F, but also simply having set a command RUN and having pressed ENTER. In the given delivery the program is adjusted on 16 digit one-lower case display and amount of memory (free) at a rate of 3534 bytes. For normal job your microcomputer should correctly work with the several operators the information about the operators that was used in this editor and their brief description you may find on web: http://www.pcrus.narod.ru/hwe.html
+ If your model has other parameters then in the text of the program it is necessary to change:
+ 1. There where it is necessary number 3534 to replace with current size of memory in your model (to find out size of free memory after the task of a command NEW  you must set a command MEM).
+ 2. Number 252 in a line 4 depends from size of free memory on your model and  display digits, it is is required for correct graphic displaying filling of memory. For selection of this number you must amount of free memory to divide into amount of the digits (it will be necessary to take into account that amount of the digits on 2 less because first and last digits occupy the letters E and F)
+(for example: 3534/(16-2)=252) 
+3. Quantity of asterisks corresponds of digits of the display -2 asterisks.
+Quantity of spaces (operator RIGHT $) 14 +F in the fifteenth digit.
+
+e-mail:pcrus@narod.ru
+http://www.pcrus.narod.ru
