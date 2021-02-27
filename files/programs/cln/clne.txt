@@ -1,4 +1,4 @@
-This program is called " CALENDAR V. 1.5"
+This program is called "CALENDAR"
 It let define day of week in which you were born with using of year, month, date. The program give true enough results in a range between 1900 and current year. For normal work your pocket computer correctly should work with several operators the information about operators that used in this program and their brief description you may find on web:
 http://www.pcrus.narod.ru/hwe.html
 
