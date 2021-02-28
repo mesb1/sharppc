@@ -1,0 +1,46 @@
+This program is called: "EAN-13&UPC TEST".
+It checks authenticity 13 digits a stroke code (which contains the information on the goods and manufacturer), as European EAN-13 and UPC, which is applied in USA and Canada. After start of the program DEF D or RUN "D" it is necessary to enter thirteen numbers one by one, then the program will check up the control number (this number last in a stroke code (number 13). If it is right you will hear beep sound and you will see control number. For normal job your microcomputer should correctly work with the several operators the information about the operators that was used in this editor and their brief description you may find on web: http://www.pcrus.narod.ru/hwe.html
+First three numbers designate the country the manufacturer:
+00-09 USA and Canada
+30-37 France
+380 Bulgaria
+383 Slovenias
+385 Croatias
+400-440 Germany
+460-469 Russia and CIS
+471 Taiwan
+474 Estonia
+475 Latvias
+477 Lithuanias
+482 Ukraines
+484 Moldova
+489 Hongkong
+45 and 49 Japan
+50 Great Britain
+520 Greece
+529 Cypruses
+539 Ireland
+54 Belgium and Luxembourg
+560 Portugal
+57 Denmark
+590 Poland
+599 Hungary
+64 Finland
+690 PEOPLES REPUBLICS OF CHINA
+729 Israel
+73 Sweden
+76 Switzerland
+789 Brasil
+80-83 Italy
+84 Spain
+858 Slovakias
+859 Czechias
+860 Yugoslavia
+869 Turkey
+87 Netherlands
+888 Singapore
+890 India
+90-91 Austria
+
+e-mail:pcrus@narod.ru
+http://www.pcrus.narod.ru
