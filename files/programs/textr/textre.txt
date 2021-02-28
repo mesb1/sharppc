@@ -1,0 +1,18 @@
+This program from family "TEXTR".
+It is called "TEXTR".
+In this version was some code redesign for more GOSUB use, also some specific was fixed with WAIT command.
+This text editor create for job with pocket computers similar SHARP PC-1401. 
+Text of the program needs about 632 bytes (plus of 887 bytes for accommodation of array in memory). 
+For normal job your microcomputer should correctly work with the several operators the information about the operators that was used in this editor and their brief description you may find on web: http://www.pcrus.narod.ru/hwe.html
+This editor allows to type a line in 80 symbols and display on the display with various word length (1-24), he also allows to work with the various peripheral equipment. The editor can print out the typed texts on the printer (if it is) also using opportunities of a conclusion of the text with various quantity of digits (1-24) . Mode AUTO works differents: on the screen you will see only first digits from all line (for example : if display have 16 digits you will see only 16 symbols from all line); on  printer will be print out all line but printer print it like he want (for example printer having 24 digits in a line will print out a line till 24 symbols). The editor also can work with devices of record (see instruction manual of your pocket computer) for saving and reading of the typed texts, also program allows to correct or to copy the earlier typed text already after pressing a key ENTER (thus the new text atop of old is entered thus the old text is not seen). The program in this delivery uses a text array by dimension 10 and length in 80 symbols, at unsufficient volume of memory (message on a mistake: ERROR 6) it is possible to change number 10 in a line 200 on smaller or bigger if you need and have a big memory, also you can change length of a line (maximum 80 symbols) in line 200 numbers 80, but at introduction of a line of length moreover that you have chosen, the part of a line over this number will simply be ignored (for example instead of 80 have chosen 50, then you are input line 60 symbols, last 10 symbols will not be displayed. Numbers of lines have no meaning in this program  important to save a sequence of lines and operators.
+Example of interface of the program:
+At start of the program DEF A or RUN "A" the name and version of the program will be highlighted, after pressing ENTER the sound signal will be distributed and you will see: M-ENU; Q-UIT:
+M-ENU-means, that is necessary to press a key M then ENTER for reception of the help.
+S-AVE-for saving
+P-RINT-for print
+R-EAD-for reading
+V-IEW-for viewing
+Q-UIT-for exit.
+
+e-mail:pcrus@narod.ru
+http://www.pcrus.narod.ru
